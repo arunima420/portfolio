@@ -1,0 +1,133 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: linear-gradient(
+        to top,
+        #2f0918,
+        #370c1c,
+        #3f0f20,
+        #481323,
+        #501627
+    );
+    color: #eaeaea;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    min-height: 100vh;
+}
+
+/* Navbar */
+.custom-navbar {
+
+    background: rgba(255, 255, 255, 0.08);
+    padding: 12px 25px;
+    border-radius: 50px;
+    width: fit-content;
+    box-shadow: 0 0 40px rgba(255, 80, 120, 0.35);
+    
+}
+
+.nav-link {
+    color: #f1c4d9 !important;
+    padding: 10px 18px !important;
+    border-radius: 30px;
+    transition: 0.3s;
+}
+
+.nav-link:hover,
+.nav-link.active {
+    background: #ff4f87;
+    color: white !important;
+    box-shadow: 0 0 15px #ff4f87;
+}
+
+
+.intro-section {
+    padding: 0 5%;
+}
+
+.badge-pill {
+    background: rgba(255, 255, 255, 0.12);
+    padding: 8px 18px;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+.highlight {
+    color: #ff9dbf;
+}
+
+/* photo */
+.image-card {
+    background: white;
+    padding: 25px;
+    border-radius: 22px;
+    max-width: 340px;
+    box-shadow: 0 30px 60px rgba(0,0,0,0.35);
+}
+
+.intro-section h1,
+.intro-section h3,
+.intro-section p {
+    max-width: 500px;
+}
+.intro-section .row {
+    min-height: 100vh;
+}
+@media (min-width: 768px) {
+    .image-card {
+        margin-left: auto;
+    }
+}
+.hire-btn {
+   background-color: #ff4f87 !important;
+    border: 2px solid #ff4f87 !important;
+    color: white !important;
+}
+
+.hire-btn:hover {
+   background-color: transparent !important;
+    border-color: #ff9dbf !important;
+    color: #ff9dbf !important;
+    box-shadow: 0 0 25px rgba(255, 79, 135, 0.8);
+}
+
+.cv-btn {
+    background: transparent !important;
+    border: 2px solid #ff9dbf !important;
+    color: #ff9dbf !important;
+}
+
+.cv-btn:hover {
+     background-color: #ff4f87 !important;
+    border-color: #ff4f87 !important;
+    color: white !important;
+    box-shadow: 0 0 25px rgba(255, 79, 135, 0.8);
+}
+
+/* Social icons */
+.social-icon {
+    width: 42px;
+    height: 42px;
+    background: rgba(255,255,255,0.12);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.social-icon:hover {
+    background: #ff4f87;
+    box-shadow: 0 0 18px #ff4f87;
+}
+.social{
+    margin-left:10px;
+
+}
+
