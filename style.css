@@ -32,16 +32,17 @@ body {
 
 .nav-link {
     color: #f1c4d9 !important;
-    padding: 10px 18px !important;
+    padding: 9px 18px !important;
     border-radius: 30px;
     transition: 0.3s;
+    
 }
 
 .nav-link:hover,
 .nav-link.active {
     background: #ff4f87;
     color: white !important;
-    box-shadow: 0 0 15px #ff4f87;
+    box-shadow: 0 0 10px #ff4f87;
 }
 
 
@@ -62,11 +63,11 @@ body {
 
 /* photo */
 .image-card {
-    background: white;
-    padding: 25px;
+   
+    padding: 20px;
     border-radius: 22px;
-    max-width: 340px;
-    box-shadow: 0 30px 60px rgba(0,0,0,0.35);
+    max-width: 3040px;
+    
 }
 
 .intro-section h1,
@@ -105,29 +106,47 @@ body {
      background-color: #ff4f87 !important;
     border-color: #ff4f87 !important;
     color: white !important;
-    box-shadow: 0 0 25px rgba(255, 79, 135, 0.8);
+    box-shadow: 0 0 13px rgba(255, 79, 135, 0.8);
 }
 
-/* Social icons */
-.social-icon {
-    width: 42px;
-    height: 42px;
-    background: rgba(255,255,255,0.12);
-    display: inline-flex;
+/* Social icons  */
+ .social-icon {
+    width: 35px;
+     height: 35px;
+    background: rgba(255,255,255,0.12); 
+     display: inline-flex;
     align-items: center;
-    justify-content: center;
-    border-radius: 50%;
+    justify-content: center; 
+     border-radius: 50%;
     color: white;
     text-decoration: none;
     transition: 0.3s;
+    fill: rgba(255,255,255,0.12);
+}
+.linkedin,.insta{
+    /* to decrease svg size */
+    width: 23px;
+    height: 23px;
 }
 
 .social-icon:hover {
-    background: #ff4f87;
-    box-shadow: 0 0 18px #ff4f87;
+    fill:white;
+    /* background: #f3799f; */
+    box-shadow: 0 0 12px #ff4f87;
 }
 .social{
     margin-left:10px;
 
 }
-
+.home,.code,.about{
+    width: 29px;
+    height: 20px;
+    margin-top: -6px;
+   fill: white;
+}
+.contact{
+    width: 20px;
+    height: 20px;
+    margin-top: -5px;
+    fill: white;
+}
