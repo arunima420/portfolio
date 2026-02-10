@@ -123,10 +123,10 @@ body {
     transition: 0.3s;
     fill: rgba(255,255,255,0.12);
 }
-.linkedin,.insta{
+.linkedin{
     /* to decrease svg size */
-    width: 23px;
-    height: 23px;
+    width: 25px;
+    height: 25px;
 }
 
 .social-icon:hover {
@@ -149,4 +149,55 @@ body {
     height: 20px;
     margin-top: -5px;
     fill: white;
+}
+.about-section {
+  background: linear-gradient(
+    to bottom,
+    #3f0f20,
+    #2f0918
+  );
+  padding: 80px 0;
+}
+.about-card {
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 18px;
+  padding: 14px;
+  box-shadow: 0 0 5px rgba(255, 79, 135, 0.35);
+  transition: 0.3s;
+}
+
+.about-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 0 35px rgba(255, 79, 135, 0.6);
+}
+.about-title {
+  color: white;
+  font-size: 48px;
+}
+
+.about-title span {
+  color: #ff9dbf;
+  font-size: 48px;
+}
+
+.about-desc {
+  color: #f1c4d9;
+  line-height: 1.7;
+}
+.skill-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #f1c4d9;
+}
+
+.skill-item svg {
+  width: 18px;
+  height: 18px;
+  fill: #ff4f87;
+}
+.frontend,.Backend,.vc,.database {
+  color: #ff9dbf;
+  font-size: 24px;
+  margin-bottom: 15px;
 }
